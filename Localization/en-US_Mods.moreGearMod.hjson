@@ -1,0 +1,41 @@
+Items: {
+	BasicBow: {
+		DisplayName: Basic Bow
+		Tooltip: Basic modded bow
+	}
+
+	BasicSword: {
+		DisplayName: Basic Sword
+		Tooltip: Basic modded sword
+	}
+
+	LeafStaff: {
+		DisplayName: Leaf Staff
+		Tooltip: Budget leafblower
+	}
+
+	EndHamaxe: {
+		DisplayName: End Hamaxe
+		Tooltip: Made in the PRC
+	}
+
+	BasicStaff: {
+		DisplayName: Basic Staff
+		Tooltip: Basic modded staff
+	}
+
+	BasicWand: {
+		DisplayName: Basic Wand
+		Tooltip: Basic modded wand
+	}
+
+	BasicPickaxe: {
+		Tooltip: ""
+		DisplayName: Basic Pickaxe
+	}
+
+	BasicHamaxe: {
+		Tooltip: ""
+		DisplayName: Basic Hamaxe
+	}
+}
