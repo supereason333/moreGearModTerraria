@@ -38,4 +38,41 @@ Items: {
 		Tooltip: ""
 		DisplayName: Basic Hamaxe
 	}
+
+	DiamondLivingStaff: {
+		DisplayName: Diamond Living Staff
+		Tooltip: A little upgrade!
+	}
+
+	AmethystLivingStaff: {
+		DisplayName: Amethyst Living Staff
+		Tooltip: ""
+	}
+
+	EmeraldLivingStaff: {
+		DisplayName: Emerald Living Staff
+		Tooltip: ""
+	}
+
+	RubyLivingStaff: {
+		DisplayName: Ruby Living Staff
+		Tooltip: I like this one
+	}
+
+	SapphireLivingStaff: {
+		DisplayName: Sapphire Living Staff
+		Tooltip: ""
+	}
+
+	TopazLivingStaff: {
+		DisplayName: Topaz Living Staff
+		Tooltip: 100% natual topaz
+	}
+
+	SolarFury: {
+		DisplayName: Solar Fury
+		Tooltip: ""
+	}
 }
+
+Projectiles.GlowSwordProjectile.DisplayName: Glow Sword Projectile

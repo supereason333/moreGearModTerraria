@@ -20,7 +20,7 @@ namespace moreGearMod.Items.BasicTools
 			Item.value = 10000;
 			Item.rare = ItemRarityID.White;
 			Item.autoReuse = true;
-			Item.axe = 100;
+			Item.axe = 20;
 			Item.hammer = 100;
 			Item.useTurn = true;
 			Item.scale = 1f;
