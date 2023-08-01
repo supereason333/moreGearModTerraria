@@ -75,4 +75,7 @@ Items: {
 	}
 }
 
-Projectiles.GlowSwordProjectile.DisplayName: Glow Sword Projectile
+Projectiles: {
+	GlowSwordProjectile.DisplayName: Glow Sword Projectile
+	GlowSwordProjectileSide.DisplayName: Glow Sword Projectile Side
+}

@@ -8,7 +8,7 @@ using Terraria.ModLoader;
 using Terraria.Audio;
 namespace moreGearMod.Projectiles
 {
-	public class GlowSwordProjectile : ModProjectile
+	public class GlowSwordProjectileSide : ModProjectile
 	{
 		public override void SetDefaults()
 		{
@@ -39,19 +39,9 @@ namespace moreGearMod.Projectiles
 			}
 
         }
-		
         public override void OnSpawn(IEntitySource source)
         {
 			Projectile.rotation = (float)Math.Atan2((double)Projectile.velocity.Y, (double)Projectile.velocity.X);
-			double rotation = Projectile.rotation - 90;
-			
-			int offsetWidth = 30;
-			Vector2 newPosition = new Vector2((float)Math.Cos(rotation) * offsetWidth, (float)Math.Sin(rotation) * offsetWidth) + Projectile.position;
-			Projectile.NewProjectile(Projectile.InheritSource(Projectile), newPosition, Projectile.velocity, ModContent.ProjectileType<GlowSwordProjectileSide>(), Projectile.damage, Projectile.knockBack, Projectile.owner);
-
-			offsetWidth -= 2 * offsetWidth;
-			newPosition = new Vector2((float)Math.Cos(rotation) * offsetWidth, (float)Math.Sin(rotation) * offsetWidth) + Projectile.position;
-			Projectile.NewProjectile(Projectile.InheritSource(Projectile), newPosition, Projectile.velocity, ModContent.ProjectileType<GlowSwordProjectileSide>(), Projectile.damage, Projectile.knockBack, Projectile.owner);
         }
     }
 }
