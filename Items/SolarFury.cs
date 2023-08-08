@@ -30,10 +30,6 @@ namespace moreGearMod.Items
 			Item.shootSpeed = 15f;
 			Item.scale = 3f;
         }
-		int offsetNum = 0;
-		int offsetWidth = 30;
-		float rotation = 0;
-		Vector2 offset = new Vector2(0,0);
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
 			if (player.altFunctionUse == 2)

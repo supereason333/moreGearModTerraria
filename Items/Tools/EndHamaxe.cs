@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace moreGearMod.Items
+namespace moreGearMod.Items.Tools
 {
 	public class EndHamaxe : ModItem
 	{
