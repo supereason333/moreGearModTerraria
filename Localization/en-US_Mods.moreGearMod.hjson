@@ -88,6 +88,21 @@ Items: {
 		DisplayName: Basic Gun
 		Tooltip: ""
 	}
+
+	BasicWhip: {
+		DisplayName: Basic Whip
+		Tooltip: ""
+	}
+
+	BasicWhipNoCharge: {
+		DisplayName: Basic Whip No Charge
+		Tooltip: ""
+	}
+
+	BasicSpear: {
+		DisplayName: Basic Spear
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -96,4 +111,7 @@ Projectiles: {
 	BaiscBulletProjectile.DisplayName: Baisc Bullet Projectile
 	BasicBulletBounceProjectile.DisplayName: Basic Bullet Bounce Projectile
 	BasicBulletProjectile.DisplayName: Basic Bullet Projectile
+	BasicWhipProjectile.DisplayName: Basic Whip Projectile
+	BasicWhipProjectileNoCharge.DisplayName: Basic Whip Projectile No Charge
+	BasicSpearProjectile.DisplayName: Basic Spear Projectile
 }

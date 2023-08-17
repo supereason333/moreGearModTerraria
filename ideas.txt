@@ -1,21 +1,20 @@
-			offsetNum++;
-            switch (offsetNum)
-            {
-                case 1:
-                    rotation = (float)Math.Atan2((double)velocity.Y, (double)velocity.X) + -90;
-                    break;
-                case 2:
-                    rotation = (float)Math.Atan2((double)velocity.Y, (double)velocity.X);
-                    break;
-                case 3:
-                    rotation = (float)Math.Atan2((double)velocity.Y, (double)velocity.X) + 90;
-                    offsetNum = 0;
-                    break;
-            }
-			offset = new Vector2((float)Math.Cos(rotation) * offsetWidth, (float)Math.Sin(rotation) * offsetWidth);
-			position += offset;
+Ideas:
+life fruit embelem - gives 20 more health
 
+hardmode ore whips
+wooden whip
+wooden spear - wooden spear
+tungsten spear
+gold/platnum spear
+spider spear - shoots venom balls
+titanium throwing spear - shoots titanium spears
+titanium sawblade - boomarang that throws sawblades that bounce off objects
+mechanica manifest - accsorie, summons the mech trio to protect you, all souls, mech boss summons, and hallowed ore
+broken ??????
+permafrost - ice weapon hardmode ice weapon
 
+Todo:
 
+make basic whips and spears
 
-source, newPosition, Projectile.velocity, ModContent.ProjectileType<GlowSwordProjectile>(), Projectile.damage, Projectile.knockBack, ModContent.ProjectileType<GlowSwordProjectile>(), ai0:0 
+work the list from top down

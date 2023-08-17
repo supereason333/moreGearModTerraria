@@ -5,7 +5,7 @@ using Terraria.GameContent.UI;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace moreGearMod.Items.Weapons
+namespace moreGearMod.Items.Weapons.Ranged.Bows
 {
 	public class VortexShotbow : ModItem
 	{
