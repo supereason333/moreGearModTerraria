@@ -28,50 +28,22 @@ namespace moreGearMod.Projectiles.Spears
             Projectile.tileCollide = false;
             Projectile.friendly = true;
         }
-        public float movementFactor
-        {
-            get => Projectile.ai[0];
-            set => Projectile.ai[0] = value;
-        }
+        float movement = 1;
         public override void AI()
         {
-			Player projOwner = Main.player[Projectile.owner];
+            Player projOwner = Main.player[Projectile.owner];
 
-            Vector2 ownerMountedCenter = projOwner.RotatedRelativePoint(projOwner.MountedCenter, true);
-            Projectile.direction = projOwner.direction;
-            projOwner.heldProj = Projectile.whoAmI;
-            projOwner.itemTime = projOwner.itemAnimation;
-            Projectile.position.X = ownerMountedCenter.X - (float)(Projectile.width / 2);
-            Projectile.position.Y = ownerMountedCenter.Y - (float)(Projectile.height / 2);
-                
-            if (!projOwner.frozen)
+            if (projOwner.itemAnimation >= projOwner.itemAnimationMax / 2)
             {
-                if (movementFactor == 0f)
-                {
-                    movementFactor = 1f; 
-                }
-                if (projOwner.itemAnimation > projOwner.itemAnimationMax / 2) 
-                {
-                    movementFactor -= 1;
-                }
-                else 
-                {
-                    movementFactor += 1f;
-                }
+                Projectile.position += Projectile.velocity * movement;
+                movement *= 1.23f;
             }
-            Projectile.position += Projectile.velocity * movementFactor;
-
-            if(projOwner.itemAnimation == 0)
+            else
             {
-                Projectile.Kill();
+                Projectile.position += Projectile.velocity * movement;
+                movement /= 1.23f;
             }
-
-            Projectile.rotation = Projectile.velocity.ToRotation();
-
-            if (Projectile.spriteDirection == -1)
-            {
-                Projectile.rotation -= 90f;  // i try 180 change to 90
-            }
+            if (projOwner.itemAnimation == 0) Projectile.Kill();
         }
     }
 }
