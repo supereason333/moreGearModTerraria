@@ -36,12 +36,12 @@ namespace moreGearMod.Projectiles.Spears
             if (projOwner.itemAnimation >= projOwner.itemAnimationMax / 2)
             {
                 Projectile.position += Projectile.velocity * movement;
-                movement *= 1.23f;
+                movement *= 1.2f;
             }
             else
             {
                 Projectile.position += Projectile.velocity * movement;
-                movement /= 1.23f;
+                movement /= 1.2f;
             }
             if (projOwner.itemAnimation == 0) Projectile.Kill();
         }
