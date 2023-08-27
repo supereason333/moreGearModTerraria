@@ -81,7 +81,7 @@ Items: {
 
 	VortexShotbow: {
 		DisplayName: Vortex Shotbow
-		Tooltip: ""
+		Tooltip: "peak weaponary"
 	}
 
 	BasicGun: {
@@ -91,17 +91,17 @@ Items: {
 
 	BasicWhip: {
 		DisplayName: Basic Whip
-		Tooltip: ""
+		Tooltip: "dose not work"
 	}
 
 	BasicWhipNoCharge: {
 		DisplayName: Basic Whip No Charge
-		Tooltip: ""
+		Tooltip: "noes not work"
 	}
 
 	BasicSpear: {
 		DisplayName: Basic Spear
-		Tooltip: ""
+		Tooltip: "why do you have this?"
 	}
 }
 
