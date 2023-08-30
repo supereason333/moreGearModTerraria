@@ -9,8 +9,17 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="ideas.txt" />
+    <None Remove="Items\Weapons\Melee\" />
+    <None Remove="Items\Weapons\Melee\Spears\" />
+    <None Remove="Items\Weapons\Melee\Swords\" />
+    <None Remove="Projectiles\Spears\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\Weapons\Melee\" />
+    <Folder Include="Items\Weapons\Melee\Spears\" />
+    <Folder Include="Items\Weapons\Melee\Swords\" />
   </ItemGroup>
 </Project>

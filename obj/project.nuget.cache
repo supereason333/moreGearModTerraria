@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ji4pz79GTe7pIzGpittWGnuM8CLrxH1Lq9uzrYBsgPgmmcfALZ19jfDA9lq3upJruyOIU6nimMiqsDT08ty56g==",
+  "dgSpecHash": "v7Cr+4a5RiPcLfpsHxrZXoR49jvDqr6lGf1DikVX5i7ndEfwD3NJ2Uw5VGyD/xj0/Py5BZGxfIXB96cj1jQXeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\super\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\moreGearMod\\moreGearMod.csproj",
+  "projectFilePath": "/Users/easonli/Library/Application Support/Terraria/tModLoader/ModSources/moreGearMod/moreGearMod.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\super\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+    "/Users/easonli/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
   ],
   "logs": []
 }

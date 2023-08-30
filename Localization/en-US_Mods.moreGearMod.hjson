@@ -81,7 +81,7 @@ Items: {
 
 	VortexShotbow: {
 		DisplayName: Vortex Shotbow
-		Tooltip: "peak weaponary"
+		Tooltip: peak weaponary
 	}
 
 	BasicGun: {
@@ -91,17 +91,37 @@ Items: {
 
 	BasicWhip: {
 		DisplayName: Basic Whip
-		Tooltip: "dose not work"
+		Tooltip: dose not work
 	}
 
 	BasicWhipNoCharge: {
 		DisplayName: Basic Whip No Charge
-		Tooltip: "noes not work"
+		Tooltip: noes not work
 	}
 
 	BasicSpear: {
 		DisplayName: Basic Spear
-		Tooltip: "why do you have this?"
+		Tooltip: why do you have this?
+	}
+
+	LivingSpear: {
+		DisplayName: Living Spear
+		Tooltip: ""
+	}
+
+	WeightedThrowingBall: {
+		DisplayName: Weighted Throwing Ball
+		Tooltip: ""
+	}
+
+	NightsGlaive: {
+		DisplayName: Nights Glaive
+		Tooltip: ""
+	}
+
+	Pitchfork: {
+		DisplayName: Pitchfork
+		Tooltip: ""
 	}
 }
 
@@ -114,4 +134,8 @@ Projectiles: {
 	BasicWhipProjectile.DisplayName: Basic Whip Projectile
 	BasicWhipProjectileNoCharge.DisplayName: Basic Whip Projectile No Charge
 	BasicSpearProjectile.DisplayName: Basic Spear Projectile
+	LivingSpearProjectile.DisplayName: Living Spear Projectile
+	WeightedThrowingBallProjectile.DisplayName: Weighted Throwing Ball Projectile
+	NightsGlaiveProjectile.DisplayName: Nights Glaive Projectile
+	PitchforkProjectile.DisplayName: Pitchfork Projectile
 }
