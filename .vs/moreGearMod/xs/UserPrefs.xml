@@ -1,26 +1,22 @@
 ﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Projectiles/Spears/WoodenSpearProjectile.cs">
     <Files>
-      <File FileName="ideas.txt" Line="5" Column="6" />
+      <File FileName="ideas.txt" />
       <File FileName="Projectiles/Spears/WoodenSpearProjectile.cs" Line="18" Column="25" />
-      <File FileName="Items/Weapons/Melee/Spears/WoodenSpear.cs" Line="28" Column="92" />
+      <File FileName="Items/Weapons/Melee/Spears/WoodenSpear.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="moreGearMod">
             <Node name="moreGearMod">
-              <Node name="Items" expanded="True">
-                <Node name="Weapons" expanded="True">
-                  <Node name="Melee" expanded="True">
-                    <Node name="Spears" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
               <Node name="Projectiles" expanded="True">
-                <Node name="Spears" expanded="True">
-                  <Node name="WoodenSpearProjectile.cs" selected="True" />
-                </Node>
+                <Node name="Spears" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -28,10 +24,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

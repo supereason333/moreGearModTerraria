@@ -17,7 +17,7 @@ namespace moreGearMod.Projectiles.Spears
 		{
 			Projectile.width = 6;  // set width when i make sprite
 			Projectile.height = 15;
-			Projectile.aiStyle = 28;
+			Projectile.aiStyle = 19;
 			Projectile.penetrate = -1;
 			Projectile.scale = 1f;
 			Projectile.alpha = 0;
@@ -38,20 +38,20 @@ namespace moreGearMod.Projectiles.Spears
 
             projOwner.heldProj = Projectile.whoAmI;
 
-			if (projAnim <= projOwner.itemAnimationMax / 2)
-			{
-				projPosFac += projMoveSpd;
-			}
-			else
-			{
-				projPosFac -= projMoveSpd;
-			}
-
+            if (projAnim <= projOwner.itemAnimationMax / 2)
+            {
+                projPosFac += projMoveSpd;
+            }
+            else
+            {
+                projPosFac -= projMoveSpd;
+            }
             Projectile.position = projOwner.MountedCenter + Projectile.velocity * projPosFac;
-			Projectile.rotation = Projectile.velocity.ToRotation();              
+            Projectile.rotation = Projectile.velocity.ToRotation();
 
             if (projAnim >= projOwner.itemAnimationMax) Projectile.Kill();
+
             return false;
-		}
+        }
 	}
 }

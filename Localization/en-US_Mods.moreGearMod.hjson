@@ -1,7 +1,7 @@
 Items: {
 	BasicBow: {
-		DisplayName: Basic Bow
-		Tooltip: Basic modded bow
+		DisplayName: "Basic Bow"
+		Tooltip: "Basic modded bow"
 	}
 
 	BasicSword: {
@@ -76,17 +76,17 @@ Items: {
 
 	StarPickaxe: {
 		DisplayName: Star Pickaxe
-		Tooltip: Right click to change modes
+		Tooltip: "Right click to change modes"
 	}
 
 	VortexShotbow: {
 		DisplayName: Vortex Shotbow
-		Tooltip: peak weaponary
+		Tooltip: "peak weaponary"
 	}
 
 	BasicGun: {
 		DisplayName: Basic Gun
-		Tooltip: ""
+		Tooltip: "pew per ?"
 	}
 
 	BasicWhip: {
@@ -106,11 +106,6 @@ Items: {
 
 	LivingSpear: {
 		DisplayName: Living Spear
-		Tooltip: ""
-	}
-
-	WeightedThrowingBall: {
-		DisplayName: Weighted Throwing Ball
 		Tooltip: ""
 	}
 

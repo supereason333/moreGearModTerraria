@@ -14,8 +14,8 @@ namespace moreGearMod.Items.Weapons.Melee.Spears
             Item.DamageType = DamageClass.Melee;
             Item.width = 40;
             Item.height = 40;
-            Item.useTime = 35;
-            Item.useAnimation = 35;
+            Item.useTime = 45;
+            Item.useAnimation = 45;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.knockBack = 2;
             Item.value = 200;

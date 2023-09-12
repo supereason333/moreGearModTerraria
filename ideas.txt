@@ -15,3 +15,8 @@ permafrost - ice weapon hardmode ice weapon
 Todo:
 
 work the list from top down
+
+spriting work:
+
+woodenspear sprite
+livingspear sprite
