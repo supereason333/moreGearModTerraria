@@ -16,8 +16,8 @@ namespace moreGearMod.Projectiles.Spears
 		public override void SetDefaults()
 		{
 			Projectile.width = 6;  // set width when i make sprite
-			Projectile.height = 6;
-			Projectile.aiStyle = 19;
+			Projectile.height = 15;
+			Projectile.aiStyle = 28;
 			Projectile.penetrate = -1;
 			Projectile.scale = 1f;
 			Projectile.alpha = 0;
@@ -28,24 +28,30 @@ namespace moreGearMod.Projectiles.Spears
 			Projectile.tileCollide = false;
 			Projectile.friendly = true;
 		}
-		float movement = 1;
-		float movementOffset = 1.26f;
-
-		public override void AI()
+        float projAnim = 0;
+        float projPosFac = 20;
+        float projMoveSpd = 4f;
+        public override bool PreAI()
 		{
-			Player projOwner = Main.player[Projectile.owner];
+            Player projOwner = Main.player[Projectile.owner];
+            projAnim++;
 
-			if (projOwner.itemAnimation >= projOwner.itemAnimationMax / 2)
+            projOwner.heldProj = Projectile.whoAmI;
+
+			if (projAnim <= projOwner.itemAnimationMax / 2)
 			{
-				Projectile.position += Projectile.velocity * movement;
-				movement *= movementOffset;
+				projPosFac += projMoveSpd;
 			}
 			else
 			{
-				Projectile.position += Projectile.velocity * movement;
-				movement /= movementOffset;
+				projPosFac -= projMoveSpd;
 			}
-			if (projOwner.itemAnimation == 0) Projectile.Kill();
+
+            Projectile.position = projOwner.MountedCenter + Projectile.velocity * projPosFac;
+			Projectile.rotation = Projectile.velocity.ToRotation();              
+
+            if (projAnim >= projOwner.itemAnimationMax) Projectile.Kill();
+            return false;
 		}
 	}
 }

@@ -11,11 +11,11 @@ using Microsoft.CodeAnalysis;
 
 namespace moreGearMod.Projectiles.Spears
 {
-	public class NightsGlaiveProjectile : ModProjectile
+	public class WoodenSpearProjectile : ModProjectile
 	{
 		public override void SetDefaults()
 		{
-			Projectile.width = 40;  // set width when i make sprite
+			Projectile.width = 60;  // set width when i make sprite
 			Projectile.height = 20;
 			Projectile.aiStyle = 19;
 			Projectile.penetrate = -1;
@@ -32,9 +32,6 @@ namespace moreGearMod.Projectiles.Spears
 		float projPosFac = 20;
 		float projMoveSpd = 4f;
 		float holdOffset = 10;
-		float changeRotation = 45;
-		float changeRotationTotal = 90;
-		bool runProj = true;
 
 		public override bool PreAI()
 		{
@@ -50,29 +47,14 @@ namespace moreGearMod.Projectiles.Spears
 			else
 			{
 				projPosFac -= projMoveSpd;
-				if (runProj)
-				{
-					runProj = false;
-                    Projectile.NewProjectile(Projectile.InheritSource(Projectile), Projectile.position - Projectile.velocity * 2, Projectile.velocity * 3, ProjectileID.ThunderSpearShot, Projectile.damage, Projectile.knockBack, Projectile.owner);
-                }
 			}
-            changeRotation -= changeRotationTotal / projOwner.itemAnimationMax;
 
             Projectile.position = projOwner.MountedCenter - new Vector2(25, 15) + Projectile.velocity * projPosFac;// + new Vector2(holdOffset * (float)Math.Sin(Projectile.velocity.ToRotation()), holdOffset * (float)Math.Cos(Projectile.velocity.ToRotation()));
-			Projectile.rotation = Projectile.velocity.ToRotation() + changeRotation;										// ^ side offset code
+			Projectile.rotation = Projectile.velocity.ToRotation();														// ^ side offset code
 
 			if (projAnim >= projOwner.itemAnimationMax) Projectile.Kill();
 
-			// dust
-			int dust = Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.Shadowflame);
-			Main.dust[dust].velocity = Projectile.velocity * (float)Main.rand.Next(65, 90) * 0.01f;
-			Main.dust[dust].scale = (float)Main.rand.Next(80, 115) * 0.013f;
-			Main.dust[dust].noGravity = true;
 			return false;
 		}
-        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
-        {
-			target.AddBuff(BuffID.ShadowFlame, 120);
-        }
     }
 }

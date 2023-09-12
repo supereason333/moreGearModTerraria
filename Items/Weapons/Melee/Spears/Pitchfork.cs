@@ -10,12 +10,12 @@ namespace moreGearMod.Items.Weapons.Melee.Spears
 	{
         public override void SetDefaults()
 		{
-			Item.damage = 24;
+			Item.damage = 20;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 40;
 			Item.height = 40;
-			Item.useTime = 40;
-			Item.useAnimation = 40;
+			Item.useTime = 25;
+			Item.useAnimation = 25;
 			Item.useStyle = ItemUseStyleID.Shoot;
 			Item.knockBack = 3;
 			Item.value = 6000;

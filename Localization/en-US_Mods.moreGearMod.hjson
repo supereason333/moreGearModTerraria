@@ -123,6 +123,11 @@ Items: {
 		DisplayName: Pitchfork
 		Tooltip: ""
 	}
+
+	WoodenSpear: {
+		DisplayName: Wooden Spear
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -138,4 +143,5 @@ Projectiles: {
 	WeightedThrowingBallProjectile.DisplayName: Weighted Throwing Ball Projectile
 	NightsGlaiveProjectile.DisplayName: Nights Glaive Projectile
 	PitchforkProjectile.DisplayName: Pitchfork Projectile
+	WoodenSpearProjectile.DisplayName: Wooden Spear Projectile
 }

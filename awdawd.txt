@@ -1,4 +1,4 @@
-			offsetNum++;
+			offsetNum-=-1;
             switch (offsetNum)
             {
                 case 1:
