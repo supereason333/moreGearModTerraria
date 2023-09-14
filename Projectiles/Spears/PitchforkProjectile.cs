@@ -15,7 +15,7 @@ namespace moreGearMod.Projectiles.Spears
 	{
 		public override void SetDefaults()
 		{
-			Projectile.width = 6;  // set width when i make sprite
+			Projectile.width = 30;  // set width when i make sprite
 			Projectile.height = 15;
 			Projectile.aiStyle = 19;
 			Projectile.penetrate = -1;
