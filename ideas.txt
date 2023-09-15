@@ -1,20 +1,23 @@
 Ideas:
 life fruit embelem - gives 20 more health
 
-hardmode ore whips
 wooden whip
 wooden spear - wooden spear
 tungsten spear
 gold/platnum spear
 spider spear - shoots venom balls
+spear of the sea - upgraded trident made with fish and in hardmode
 titanium throwing spear - shoots titanium spears
 titanium sawblade - boomarang that throws sawblades that bounce off objects
-mechanica manifest - accsorie, summons the mech trio to protect you, all souls, mech boss summons, and hallowed ore
+mechanica manifest? - accsorie, summons the mech trio to protect you, all souls, mech boss summons, and hallowed ore
 broken ??????
 permafrost - ice weapon hardmode ice weapon
 
 Todo:
 
-make basic whips and spears
-
 work the list from top down
+
+spriting work:
+
+woodenspear sprite
+livingspear sprite
