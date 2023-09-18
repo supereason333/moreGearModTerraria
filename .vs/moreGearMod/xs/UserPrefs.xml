@@ -1,22 +1,29 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Projectiles/Spears/WoodenSpearProjectile.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Projectiles/Spears/SpearOfTheSeaProjectile.cs">
     <Files>
-      <File FileName="ideas.txt" />
-      <File FileName="Projectiles/Spears/WoodenSpearProjectile.cs" Line="18" Column="25" />
-      <File FileName="Items/Weapons/Melee/Spears/WoodenSpear.cs" />
+      <File FileName="ideas.txt" Line="10" Column="19" />
+      <File FileName="Projectiles/Spears/PitchforkProjectile.cs" Line="56" Column="3" />
+      <File FileName="Projectiles/Spears/NightsGlaiveProjectile.cs" Line="72" Column="4" />
+      <File FileName="Projectiles/Spears/WoodenSpearProjectile.cs" Line="52" Column="87" />
+      <File FileName="Projectiles/Spears/SpearOfTheSeaProjectile.cs" Line="56" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="moreGearMod">
-            <Node name="moreGearMod">
+            <Node name="moreGearMod" expanded="True">
+              <Node name="Items" expanded="True">
+                <Node name="Weapons" expanded="True">
+                  <Node name="Melee" expanded="True">
+                    <Node name="Spears" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Localization" expanded="True" />
               <Node name="Projectiles" expanded="True">
-                <Node name="Spears" expanded="True" />
+                <Node name="Spears" expanded="True">
+                  <Node name="SpearOfTheSeaProjectile.png" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -25,4 +32,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
