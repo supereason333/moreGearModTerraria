@@ -31,24 +31,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/easonli/.nuget/packages/": {}
+    "C:\\Users\\super\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/easonli/Library/Application Support/Terraria/tModLoader/ModSources/moreGearMod/moreGearMod.csproj",
+      "projectUniqueName": "C:\\Users\\super\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\moreGearMod\\moreGearMod.csproj",
       "projectName": "moreGearMod",
-      "projectPath": "/Users/easonli/Library/Application Support/Terraria/tModLoader/ModSources/moreGearMod/moreGearMod.csproj",
-      "packagesPath": "/Users/easonli/.nuget/packages/",
-      "outputPath": "/Users/easonli/Library/Application Support/Terraria/tModLoader/ModSources/moreGearMod/obj/",
+      "projectPath": "C:\\Users\\super\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\moreGearMod\\moreGearMod.csproj",
+      "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\super\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\moreGearMod\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/easonli/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\super\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -88,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

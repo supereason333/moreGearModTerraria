@@ -128,6 +128,11 @@ Items: {
 		DisplayName: Spear Of The Sea
 		Tooltip: ""
 	}
+
+	BrokenNail: {
+		Tooltip: ""
+		DisplayName: Broken Nail
+	}
 }
 
 Projectiles: {
@@ -145,4 +150,5 @@ Projectiles: {
 	PitchforkProjectile.DisplayName: Pitchfork Projectile
 	WoodenSpearProjectile.DisplayName: Wooden Spear Projectile
 	SpearOfTheSeaProjectile.DisplayName: Spear Of The Sea Projectile
+	NailProjectile.DisplayName: Nail Projectile
 }
